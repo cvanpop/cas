@@ -1,0 +1,280 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family:'Roboto', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #f4424b;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo img {
+  height: 200px;
+  width: 200px;    
+  display
+  float: left;
+  margin-left: 7px;
+  margin-top: 7px;
+}
+
+.container { /* MR start here */
+  margin: auto;
+  max-width: 1000px;
+  min-height: 300px;
+}             /* MR end here */
+
+
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-around; /* Leshita add this part*/
+  width: 95%; /* MR start here */
+  margin:auto;
+  align-items: center;
+  flex-wrap: wrap; /* MR end here */
+
+}
+
+.flexitem {
+    background-color: #b3cbf2;
+    width: 400px;
+    text-align: center; /* MR start here */
+    padding: 5px 8px;
+    margin: 10px 5px;
+    color: black; /* MR end here */
+} 
+ /* Leshita add this part for the address*/
+ 
+.flexitemhour { 
+ background-color:  mediumpurple;} 
+ /* Leshita add this part for the address*/ 
+
+.flexcontainer p {padding: 0px 5px;}
+/* Leshita add this part */
+
+.flexcontainer img {
+  width:80%;
+display: block;
+  margin: 0 auto;
+  padding-top:10px;
+}  /* Leshita add this part for the address*/
+
+div.desc {
+    padding: 15px; font-size: 20px;
+} /* Leshita add this part for the address*/
+
+
+.flexitemsmall { 
+  width: 60px;
+  background-color: #ed5e66;
+} /* Leshita add this part for the address*/
+
+
+
+/*beginning of get involved*/
+.main {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.flexcontainer_getinvolved {
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+  width: 80%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    align-items: center;
+    background-color: #b3cbf2;
+    margin-top: 20px;
+  
+}
+
+.flextext_getinvolved { 
+  background-color: #b3cbf2;
+    width: 40%;
+    height: auto;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.flexphoto_getinvolved {
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    background-color: #b3cbf2;
+
+}
+
+#donateimage {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/donate_small.jpg");
+    margin: auto;
+    
+}
+
+#volunteerimage {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/volunteer_small.jpg");
+    margin: auto;
+    
+}
+#featuretext{
+    height: 20px;
+    width 20px;
+    background-color: #b79be8;
+    
+
+}
+
+/*end of get involved*/
+
+
+/*this is for fonts*/
+h1 {
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #333;
+    padding-left: 10px;
+    
+}
+h4 {text-align:center; font-size: 25px;}
+
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+/*end fonts*/
+
+a {
+  text-decoration: none;
+  color: #04000c;    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
